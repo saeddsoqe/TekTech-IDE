@@ -46,8 +46,8 @@ addBoard({
     examples: [
         "Basic",
         {
-            name: "Blink (WiFI LED)",
-            files: "../esp32-dev-board/examples/blink",
+            name: "Blink",
+            files: "../esp32-dev-board/examples/Blink",
         },
         {
             name: "Digital Read (IN1)",
@@ -57,18 +57,10 @@ addBoard({
             name: "Analog Read (IN1)",
             files: "../esp32-dev-board/examples/analog-read",
         },
-        {
-            name: "Hello, Terminal",
-            files: "../esp32-dev-board/examples/hello-terminal",
-        },
-        "LED 16x8",
-        {
-            name: "Show hart icon",
-            files: "../esp32-dev-board/examples/led16x8-show-hart",
-        },
+        "Screen ",
         {
             name: "Text scroll",
-            files: "../esp32-dev-board/examples/led16x8-text-scroll",
+            files: "../esp32-dev-board/examples/oled-scroll",
         },
         "Sound",
         {
@@ -81,9 +73,13 @@ addBoard({
         },
         "Project",
         {
-            name: "WiFi LED toggle",
-            files: "../esp32-dev-board/examples/wifi-led-toggle",
+            name: "Light Always Here",
+            files: "../esp32-dev-board/examples/Light-always-here",
         },
+        {
+            name: "Hot OR Cold",
+            files: "../esp32-dev-board/examples/hot-or-cold",
+        },        
         {
             name: "Random",
             files: "../esp32-dev-board/examples/random",
@@ -95,10 +91,6 @@ addBoard({
         {
             name: "Countdown",
             files: "../esp32-dev-board/examples/countdown",
-        },
-        {
-            name: "Thermometer (DHTxx)",
-            files: "../esp32-dev-board/examples/dht-read",
         },
     ],    
     firmware: [{
