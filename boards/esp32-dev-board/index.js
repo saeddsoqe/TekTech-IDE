@@ -47,7 +47,7 @@ addBoard({
         "Basic",
         {
             name: "Blink",
-            files: "../esp32-dev-board/examples/Blink",
+            files: "../esp32-dev-board/examples/blink",
         },
         {
             name: "Digital Read (IN1)",
