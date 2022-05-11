@@ -2,10 +2,21 @@
 
 <html>
 <head>
-    <title>KidBright32 V1.3 (Original) Simulator</title>
+    <title>TekTech V1.5 (Original) Simulator</title>
 
     <link rel="stylesheet" href="../../../fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <script>
+        const isElectron = navigator.userAgent.toLowerCase().indexOf("electron/") >= 0;
+    
+        if (isElectron) {
+            ipcRenderer = require('electron').ipcRenderer;
+    
+            remote = require('electron').remote;
+    
+            sharedObj = remote.getGlobal('sharedObj');
+        }
+        </script>
 </head>
 
 <body>

@@ -5,5 +5,7 @@ let loadScript = (f) => {
     document.write(`<script src="${f}"></script>`);
 };
 
+
 loadScript(`${rootPath}/boards/esp32-dev-board/index.js`); // Add ESP32 Dev Board
+loadScript(`${rootPath}/boards/TekTech/index.js`);
 loadScript(`${rootPath}/boards/TekTech-Robot/index.js`);

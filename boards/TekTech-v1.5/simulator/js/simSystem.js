@@ -29,12 +29,18 @@ simSystem = {
         },
         {
             value: 1
+        },
+        {
+            value: 1
+        },
+        {
+            value: 1
         }
     ],
     buzzer: {
         setStatus: (status) => {
             /* console.log("buzzer", status); */
-            let ellipseBuzzer = svgDocument.querySelector("#ellipse8315");
+            let ellipseBuzzer = svgDocument.querySelector("#circle396");
             if (status) {
                 ellipseBuzzer.classList.add("active");
             } else {
@@ -48,6 +54,22 @@ simSystem = {
             simSystem.ldr.value = value;
         },
         value: 0
+    },
+    RGB:{
+        Lamp: (lamp, turn) => {
+            // console.log("PIN Write", pin, value);
+            if (lamp === 25) { // RED LED
+                svgDocument.querySelector("#path3949").style.opacity = (turn ? "#FF2B1C" : "#FFFFFF");
+            }
+
+            if (lamp === 26) { // GREEN LED
+                svgDocument.querySelector("#path3949").style.opacity = (turn ? "#01872D" : "#FFFFFF");
+            }
+
+            if (lamp === 27) { // BLUE LED
+                svgDocument.querySelector("#path3949").style.opacity = (turn ? "#0F13FF" : "#FFFFFF");
+            }
+        },        
     },
     lm75: {
         getValue: _ => simSystem.lm75.value,
