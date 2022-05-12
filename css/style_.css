@@ -7,8 +7,7 @@ img {
     height: auto;
 }
 
-html,
-body {
+html, body {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -83,31 +82,6 @@ body {
     padding: 20px 30px;
 }
 
-@media only screen and (max-width:600px) {
-    .header-logo {
-        font-size: 12px;
-        padding: 20px 15px;
-    }
-}
-
-@media only screen and (min-width:600px) {
-    .header-logo {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    .header-logo {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (min-width:992px) {
-    .header-logo {
-        font-size: 20px;
-    }
-}
-
 .embed .header-logo {
     font-size: 18px;
     padding: 10px 10px;
@@ -123,14 +97,6 @@ ul.switch-mode {
     padding: 6px;
 }
 
-
-/* @media only screen and (max-width:600px) {
-    ul.switch-mode {
-        width: 15px;
-        height: 15px;
-    }
-} */
-
 ul.switch-mode>li {
     list-style: none;
     padding: 10px 16px;
@@ -140,51 +106,9 @@ ul.switch-mode>li {
     border-radius: 100px;
 }
 
-@media only screen and (max-width:600px) {
-    ul.switch-mode>li {
-        padding: 12px 7px;
-        width: 40px;
-        height: 40px;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width:600px) {
-    .embed ul.switch-mode>li {
-        padding: 12px 7px;
-        width: 40px;
-        height: 40px;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    .embed ul.switch-mode>li {
-        padding: 12px 7px;
-        width: 40px;
-        height: 40px;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width:992px) {
-    .embed ul.switch-mode>li {
-        padding: 12px 7px;
-        width: 40px;
-        height: 40px;
-        font-size: 12px;
-    }
-}
-
 ul.switch-mode>li.active {
     background-color: rgb(255, 255, 255);
     color: #16925e;
-}
-
-@media only screen and (max-width:600px) {
-    ul.switch-mode>li.active {
-        font-size: 12px;
-    }
 }
 
 .embed ul.switch-mode {
@@ -214,42 +138,10 @@ ul.top-bar-button>li>button {
     font-size: 20px;
     color: #FFF;
     outline: none;
-    border-radius: 100%;
+    border-radius: 500px;
     background-color: #15b673;
     border: none;
     margin-right: 10px;
-}
-
-@media only screen and (max-width:600px) {
-    ul.top-bar-button>li>button {
-        width: 20px;
-        height: 20px;
-        font-size: 10px;
-    }
-}
-
-@media only screen and (min-width:600px) {
-    ul.top-bar-button>li>button {
-        width: 24px;
-        height: 24px;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    ul.top-bar-button>li>button {
-        width: 32px;
-        height: 32px;
-        font-size: 16px;
-    }
-}
-
-@media only screen and (min-width:992px) {
-    ul.top-bar-button>li>button {
-        width: 38px;
-        height: 38px;
-        font-size: 19px;
-    }
 }
 
 ul.top-bar-button>li>button:hover {
@@ -261,9 +153,9 @@ ul.top-bar-button>li>button:hover {
 }
 
 .embed ul.top-bar-button>li>button {
-    width: 100%;
-    height: 100%;
-    font-size: 2vw;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
     margin-right: 0px;
 }
 
@@ -399,38 +291,6 @@ ul.switch-mode > li:last-child {
     color: #FFF;
 }
 
-@media only screen and (max-width:600px) {
-    .page>.main>footer>.control-box>ul.button-list>li>button {
-        width: 28px;
-        height: 28px;
-        font-size: 10px;
-    }
-}
-
-@media only screen and (min-width:600px) {
-    .page>.main>footer>.control-box>ul.button-list>li>button {
-        width: 32px;
-        height: 32px;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    .page>.main>footer>.control-box>ul.button-list>li>button {
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
-    }
-}
-
-@media only screen and (min-width:992px) {
-    .page>.main>footer>.control-box>ul.button-list>li>button {
-        width: 46px;
-        height: 46px;
-        font-size: 26px;
-    }
-}
-
 .page>.main>footer>.control-box>ul.button-list>li>input {
     margin-right: 14px;
     padding: 10px 14px;
@@ -443,12 +303,6 @@ ul.switch-mode > li:last-child {
     transition: border 300mS, width 300mS;
     border: 2px solid #022c53;
     width: 140px;
-}
-
-@media only screen and (max-width:600px) {
-    .page>.main>footer>.control-box>ul.button-list>li>input {
-        width: 75px;
-    }
 }
 
 .page>.main>footer>.control-box>ul.button-list>li>input:focus {
@@ -591,7 +445,7 @@ ul.switch-mode > li:last-child {
 #terminal>header>.title {
     color: rgb(57, 201, 69);
     padding: 20px;
-    font-size: 2vw;
+    font-size: 24px;
     /* text-align: center; */
     width: 100%;
     box-shadow: 0 0 10px rgb(0 0 0 / 39%);
@@ -1606,12 +1460,12 @@ ul.switch-mode > li:last-child {
     background-color: #0dd481;
 }
 
-#firmware-upgrade-dialog>section>section>article button:disabled {
+#firmware-upgrade-dialog  > section > section > article button:disabled {
     opacity: 0.6;
     cursor: not-allowed;
 }
 
-#firmware-upgrade-dialog>section>section>article button:disabled:hover {
+#firmware-upgrade-dialog  > section > section > article button:disabled:hover {
     background-color: #F1C40F;
 }
 
@@ -1790,14 +1644,12 @@ ul.switch-mode > li:last-child {
     display: none;
 }
 
-
 /** add by Saeed Desouky for example section **/
-
 #code-example-dialog {
     z-index: 9998;
 }
 
-#code-example-dialog>section {
+#code-example-dialog > section {
     flex-grow: 1;
     display: flex;
     flex-direction: row;
@@ -1810,26 +1662,26 @@ ul.switch-mode > li:last-child {
     z-index: 999;
 }
 
-.example-list>ul {
+.example-list > ul {
     padding: 0;
     margin: 0;
     overflow: auto;
     height: 100%;
 }
 
-.example-list>ul>li {
+.example-list > ul > li {
     list-style: none;
     padding: 0px 10px;
     margin-bottom: 10px;
 }
 
-.example-list>ul>li.sub-header {
+.example-list > ul > li.sub-header {
     font-size: 12px;
     color: #ABB2B9;
     margin-top: 20px;
 }
 
-.example-list>ul>li>a {
+.example-list > ul > li > a {
     padding: 12px 20px;
     background-color: #EAECEE;
     color: #212F3D;
@@ -1839,16 +1691,16 @@ ul.switch-mode > li:last-child {
     text-decoration: none;
 }
 
-.example-list>ul>li>a:hover {
+.example-list > ul > li > a:hover {
     background-color: #D5D8DC;
 }
 
-.example-list>ul>li.active>a {
+.example-list > ul > li.active > a {
     background-color: #F1C40F;
     color: #FFF;
 }
 
-.code-example-dialog>section {
+.code-example-dialog > section {
     overflow: hidden;
 }
 
@@ -1862,7 +1714,7 @@ ul.switch-mode > li:last-child {
     height: 100%;
 }
 
-.work-box>div {
+.work-box > div {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -1874,29 +1726,24 @@ ul.switch-mode > li:last-child {
     align-items: center;
 }
 
-#noSelectExampleFile>div {
+#noSelectExampleFile > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #D5D8DC;
 }
 
-#noSelectExampleFile>div>i {
+#noSelectExampleFile > div > i {
     font-size: 120px;
     margin-bottom: 10px;
 }
 
-#noSelectExampleFile>div>span {
+#noSelectExampleFile > div > span {
     font-size: 18px;
     font-weight: bold;
 }
-
-
 /* ****************************************** */
-
-
 /* Blockly hardover */
-
 .blocklyToolboxDiv {
     background-color: #D7DBDD !important;
     box-shadow: 0 0 10px rgb(0 0 0 / 39%);
@@ -1974,8 +1821,6 @@ ul.switch-mode > li:last-child {
 ::-webkit-scrollbar-thumb:hover {
     background: #B3B6B7;
 }
-
-
 /*
 .blocklyCheckedBox {
     fill: #FF0000 !important;
@@ -1983,9 +1828,7 @@ ul.switch-mode > li:last-child {
 }
 */
 
-
 /* Notify hardover */
-
 .notiflix-confirm input {
     width: 100%;
     border-radius: 100px;
