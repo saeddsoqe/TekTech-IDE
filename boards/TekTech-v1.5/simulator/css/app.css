@@ -32,7 +32,7 @@ section {
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
-  /* padding: 0 10px; */
+  /* padding: 10px 1px; */
 }
 
 .main-view > svg {
@@ -98,7 +98,7 @@ section {
 
 /* Popover */
 .Popover {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 999;
@@ -109,7 +109,7 @@ section {
   min-height: 40px;
   border-radius: 4px;
   /* opacity: 0.4; */
-  transform: translateY(100%);
+  /* transform: translateY(100%); */
   transition: opacity 300ms;
 }
 
@@ -184,7 +184,7 @@ section {
 /* SVG style */
 
 #path600, /* S1 */
-#path574, /* S2 */
+#path626, /* S2 */
 #path26, /* S3 */
 #path626, /* S4 */
 #path8379, /* Reset */
@@ -196,7 +196,7 @@ section {
 /* RGB Id path3949  */
 /* S1 & S2 & S3 & S4 & Reset */
 #path600,
-#path574,
+#path626,
 #path26, 
 #path626,
 #path8379 {
@@ -204,7 +204,7 @@ section {
 }
 
 #path600,
-#path574,
+#path626,
 #path26, 
 #path626,
 #path3949 {
@@ -212,7 +212,7 @@ section {
 }
 
 #path600:hover,
-#path574:hover,
+#path626:hover,
 #path26:hover, 
 #path626:hover,
 #path8379:hover {
@@ -221,7 +221,7 @@ section {
 }
 
 #path600:active,
-#path574:active,
+#path626:active,
 #path26:active, 
 #path626:active,
 #path8379:active {
@@ -229,7 +229,7 @@ section {
 }
 
 #group-LM75:hover > #rect8515, /* LM73 */
-#g8943:hover #path8931 {
+#g8943:hover  #path8931 {
   /* LDR */
   fill: #ffff00 !important;
 }

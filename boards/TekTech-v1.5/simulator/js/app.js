@@ -51,46 +51,44 @@ let setupSwitchHandle = () => {
     simSystem.switch[0].value = 1;
     
   });
-
   S1.addEventListener("mouseup", () => {
     // S1 on Release
     simSystem.switch[0].value = 0;
   });
 
   // S2
-  let S2 = svgDocument.querySelector("#path574");
+  let S2 = svgDocument.querySelector("#path626");
   S2.addEventListener("mousedown", () => {
     // S2 on Press
     simSystem.switch[1].value = 1;
   });
-
   S2.addEventListener("mouseup", () => {
     // S2 on Release
     simSystem.switch[1].value = 0;
   });
+  // Future development
+  // let S3 = svgDocument.querySelector("#path26");
+  // //S3 on press
+  // S3.addEventListener("mouseup", () => {
+  //   // S3 on Release
+  //   simSystem.switch[2].value = 1;
+  // });
+  // S3.addEventListener("mouseup", () => {
+  //   // S3 on Release
+  //   simSystem.switch[2].value = 0;
+  // });
 
-  let S3 = svgDocument.querySelector("#path26");
-  //S3 on press
-  S3.addEventListener("mouseup", () => {
-    // S3 on Release
-    simSystem.switch[2].value = 1;
-  });
-  S3.addEventListener("mouseup", () => {
-    // S3 on Release
-    simSystem.switch[2].value = 0;
-  });
-
-  let S4 = svgDocument.querySelector("#path626");
-  //S3 on press
-  S4.addEventListener("mouseup", () => {
-    // S4 on Release
-    simSystem.switch[3].value = 1;
-  });
+  // let S4 = svgDocument.querySelector("#path626");
+  // //S3 on press
+  // S4.addEventListener("mouseup", () => {
+  //   // S4 on Release
+  //   simSystem.switch[3].value = 1;
+  // });
   
-  S4.addEventListener("mouseup", () => {
-    // S4 on Release
-    simSystem.switch[3].value = 0;
-  });
+  // S4.addEventListener("mouseup", () => {
+  //   // S4 on Release
+  //   simSystem.switch[3].value = 0;
+  // });
 
   // Reset
   let Reset = svgDocument.querySelector("#path8379");
@@ -99,7 +97,7 @@ let setupSwitchHandle = () => {
     runCodeAndProcess();
   });
 };
-
+//g8943
 let setupLDRHandle = () => {
   let domLDR = svgDocument.querySelector("#g8943");
   domLDR.addEventListener("click", function () {
@@ -119,9 +117,7 @@ let setupLDRHandle = () => {
     );
   });
 };
-let RGB_Handler = () =>{
 
-};
 let setupLM75Handle = () => {
   let domLM75 = svgDocument.querySelector("#group-LM75");
   domLM75.addEventListener("click", function () {

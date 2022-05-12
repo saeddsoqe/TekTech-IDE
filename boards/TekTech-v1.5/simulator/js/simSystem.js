@@ -103,12 +103,14 @@ simSystem = {
         },
         digitalWrite: (pin, value) => {
             // console.log("PIN Write", pin, value);
-            if (pin === 2) { // WiFi LED
-                svgDocument.querySelector("#path8759").style.opacity = !value ? 0.9 : 0;
+            if (pin === 25) { // RED LED
+                svgDocument.querySelector("#path3949").style.fill = (value==1) ? "#FF0000" : "#FFFFFF";
             }
-
-            if (pin === 12) { // IoT LED
-                svgDocument.querySelector("#path8911").style.opacity = !value ? 0.9 : 0;
+            if (pin === 26) { // GREEN LED
+                svgDocument.querySelector("#path3949").style.fill = (value==1) ? "#7CFC00" : "#FFFFFF";
+            }
+            if (pin === 27) { // BLUE LED
+                svgDocument.querySelector("#path3949").style.fill = (value==1) ? "#0000FF" : "#FFFFFF";
             }
         },
         touchRead: (pin) => 0,
