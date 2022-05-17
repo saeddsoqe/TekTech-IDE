@@ -57,12 +57,12 @@ let setupSwitchHandle = () => {
 
     S1.addEventListener("touchstart", () => {
         // S2 on Press
-        simSystem.switch[1].value = 1;
+        simSystem.switch[0].value = 1;
         document.getElementById("path600").style.fill = "#ff0000";
     });
     S1.addEventListener("touchend", () => {
         // S2 on Release
-        simSystem.switch[1].value = 0;
+        simSystem.switch[0].value = 0;
         document.getElementById("path600").style.fill = "black";
     });
 
