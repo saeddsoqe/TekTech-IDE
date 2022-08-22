@@ -555,7 +555,7 @@ ul.switch-mode > li:last-child {
     height: 100%;
     z-index: 3988;
     overflow: hidden;
-    width: 300px;
+    width: 500px;
     display: none;
     flex-shrink: 0;
 }

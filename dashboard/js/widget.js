@@ -1,4 +1,4 @@
-
+//if we want implement a sonar will implement it here 
 widgets = [
     {
         id: "text",
